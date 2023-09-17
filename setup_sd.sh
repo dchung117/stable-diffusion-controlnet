@@ -9,3 +9,8 @@ wget -q https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/m
 
 mv webui.sh ~; cd ~
 source webui.sh
+
+echo "Stable diffusion setup successful! Make sure to set COMMANDLINE_ARGS'--share --xformers 
+    --theme dark
+    --vae-path=/home/ubuntu/stable-diffusion-webui/models/VAE/Counterfeit-V2.5.vae.pt
+    --no-half-vae' in webui-user.sh before launching"
